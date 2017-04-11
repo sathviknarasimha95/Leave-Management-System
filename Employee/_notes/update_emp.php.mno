@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_update_emp" value="name:emp_id;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:doj;datatype:string,name:desig;datatype:string,name:department;datatype:string,name:cl;datatype:int,name:scl;datatype:int,name:el;datatype:int" />
+</info>

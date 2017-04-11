@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Leave</title>
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+<form method="post" name="Leave_page" class="smart-green">
+<a href="../Login Sucess.php">Back</a>
+<h1 align="center">Employee Details</h1>
+<label>
+<span>Employe Id</span>
+<input name="empid" type="text" required placeholder="Empid">
+</label>
+<br>
+<label>
+<span>&nbsp;</span>
+<input name="update" type="submit"  class="button" value="update">
+</label>
+<br>
+
+<label>
+<span>Employe Name</span>
+<input name="empname" type="text" required placeholder="Employee Name">
+</label>
+
+<label>
+<span>Designation</span>
+<input name="design" type="text" required placeholder="Designation">
+</label>
+
+<label>
+<span>Department</span> <select name="Selection">
+<option value="BCA">BCA</option>
+<option value="MCA">MCA</option>
+</select>
+</label>
+<br>
+<br>
+<br>
+
+    <h1 align="center">Leave Application </h2>
+    <br>
+    <br>
+    <a href="#" align="center">Click Here to View Number of Leaves Availabel</a>
+    <br>
+    <br>
+    <label>
+    <span>Leave Type:</span> <select name="leavetype" >
+      <option value="CL">Casual Leave</option>
+      <option value="EL">Earn Leave</option>
+      <option value="OOD/SCL">OOD/SCL</option>
+      <option value="LOP">LOP</option>
+    </select>
+    </label>
+    
+    <label>
+    <span>From Date:</span>
+    <input name="from_date" type="text" required id="from_date" placeholder="From Date">
+    </label>
+    <label>
+    <span>TO Date:</span>
+    <input name="to_date" type="text" required id="to_date" placeholder="To Date">
+    </label>
+    <label>
+    <span>Applied Date:</span>
+    <input name="applied_date" type="text" required id="applied_date" placeholder="Applied Date">
+    </label>
+    
+    <label>
+    <span>Number of Days:</span>
+    <input name="no_days" type="text" required id="no_days" placeholder="Number of days">
+    </label>
+    <label>
+    <span>Reason:</span>
+    <textarea name="reason_text" cols="40" rows="5" required></textarea>
+    </span>
+    <br>
+    <br>
+<input type="submit" name="submit" value="submit" class="button">
+<br>
+ </div>   
+</body>
+</html>

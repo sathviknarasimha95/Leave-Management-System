@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Leaveapp" value="name:emp_id;datatype:string,name:emp_name;datatype:string,name:emp_dep;datatype:string,name:emp_des;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_principal_apporve" value="name:Leave_id;datatype:int,name:empid;datatype:string,name:empname;datatype:string,name:desig;datatype:string,name:department;datatype:string,name:rcl;datatype:string,name:rscl;datatype:string,name:rel;datatype:string,name:leave_type;datatype:string,name:from_date;datatype:string,name:to_date;datatype:string,name:app_date;datatype:string,name:no_days;datatype:string,name:reason;datatype:string,name:leave_status;datatype:string,name:Approved_principal;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_empid" value="name:Leave_id;datatype:int,name:empid;datatype:string,name:empname;datatype:string" />
+</info>

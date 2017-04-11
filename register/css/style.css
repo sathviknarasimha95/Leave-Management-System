@@ -1,0 +1,73 @@
+body {
+
+	height: auto;
+	background:#ff4444;
+	font-family: 'Open Sans', 'Calibri',tahoma;
+	color: #f9f9f9;
+
+}
+
+#login {
+	position: absolute;
+	top: 88px;
+	left: 395px;
+	width: 350px;
+	height: auto;
+	padding: 10px;
+	background: #f9f9f9;
+	color: #222;
+	box-shadow: 5px 10px 10px #555;
+	border-top:5px solid #4aaee7;
+	
+}
+#login > h1 {
+	text-shadow:5px 5px 10px #aaa;
+}
+.button {
+
+	width: 200px;
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	background: #4aaee7;
+	color: #f9f9f9;
+	box-shadow: 0 5px 5px #aaa;
+-moz-transition: all .25s ease-in-out;
+			-webkit-transition: all .25s ease-in-out;
+			-o-transition: all .25s ease-in-out;
+			-ms-transition: all .25s ease-in-out;
+			transition: all .25s ease-in-out;
+
+}
+
+.button:hover{
+	-webkit-transform:scale(1.1,1.1);
+	-moz-transform:scale(1.1,1.1);
+	-o-transform:scale(1.1,1.1);
+	-ms-transform:scale(1.1,1.1);
+	transform:scale(1.1,1.1);
+	box-shadow: 0 5px 10px #aaa;
+}
+input {
+	font-family: 'Open Sans';
+			-webkit-appearance: none;
+			display: block;
+			border: 0;
+			outline: 0;
+			font-size: 18px;
+			background: #f9f9f9;
+			box-shadow: inset 0px 0px 1px 0px #a0a1a7;
+			border-radius: 0.35em;
+			width: 60%;
+			padding: 0.75em 1em 0.75em 1em;
+			-moz-transition: all .25s ease-in-out;
+			-webkit-transition: all .25s ease-in-out;
+			-o-transition: all .25s ease-in-out;
+			-ms-transition: all .25s ease-in-out;
+			transition: all .25s ease-in-out;
+	}
+	input:focus {
+		background: #f8f8f8;
+		outline:1px solid #4aaee7;
+		-web
+	}	
